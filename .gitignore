@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+streamlit_env/
+
+# Environment variables file
+.env
+
+# Local database and vector store files
+*.sqlite
+*.db
+*.parquet
+chromadb/
+.chromadb/*
+*.duckdb
+
+# Streamlit files
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Uploaded files and directories
+uploaded_files/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
